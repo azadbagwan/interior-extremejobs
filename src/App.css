@@ -200,7 +200,7 @@ h6 {
 .defaultHero,
 .roomsHero {
   min-height: calc(80vh - 46px);
-  background: url("./images/hair_model_black_bg.png") center/cover no-repeat;
+  background: url("./images/details-2.jpeg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;

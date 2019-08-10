@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 //import logo from "../images/aanamashlogo.jpg";
-import logoWhite from "../images/salon_logo_ex.png";
+import logoWhite from "../images/logo2.jpeg";
 import { FaAlignRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 export default class Navbar extends Component {

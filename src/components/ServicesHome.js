@@ -1,29 +1,29 @@
 import React, { Component } from 'react'
 import Title from './Title';
-import {FaRegHandScissors, FaPaintBrush, FaShuttleVan,FaBeer} from "react-icons/fa";
-import { IoMdCut, IoIosCut, IoIosHand, IoIosEye} from "react-icons/io";
+import {FaRegHandScissors, FaPaintBrush, FaShuttleVan,FaTree} from "react-icons/fa";
+import { IoLogoBuffer, IoIosConstruct, IoIosHand, IoIosEye} from "react-icons/io";
 
 export default class ServicesHome extends Component {
     state={
         services:[
             {
-             icon:<IoMdCut/>,
-             title:"Haircut",
+             icon:<IoLogoBuffer/>,
+             title:"Tiling",
              info:" some information about the service" 
             },
             {
+                icon:<IoIosConstruct/>,
+                title:"plumbing",
+                info:" some information about the service" 
+               },
+               {
                 icon:<FaPaintBrush/>,
-                title:"Nails",
+                title:"Painting",
                 info:" some information about the service" 
                },
                {
-                icon:<IoIosHand/>,
-                title:"Hair colouring",
-                info:" some information about the service" 
-               },
-               {
-                icon:<IoIosEye/>,
-                title:"Eye Brows",
+                icon:<FaTree/>,
+                title:"Garden",
                 info:" some information about the service" 
                }
         ]

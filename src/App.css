@@ -200,18 +200,26 @@ h6 {
 .defaultHero,
 .roomsHero {
   min-height: calc(80vh - 46px);
-  background: url("./images/details-2.jpeg") center/cover no-repeat;
+  background: url("./images/tile-blue1.jpeg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .roomsHero {
-  background-image: url("./images/room-2.jpeg");
+  background-image: url("./images/tile-brown-design1.jpeg");
   min-height: 60vh;
 }
+.dynamic-hero {
+  min-height: calc(80vh - 46px);
+  max-height: calc(81vh - 47px);
+  display: flex;
+  background-size: contain;
+  align-items: center;
+  justify-content: center;
+}
 .servicesHero {
-  min-height: calc(100vh - 66px);
-  background: url("./images/salon_chairs.png") center/cover no-repeat;
+  min-height: calc(70vh - 46px);
+  background: url("./images/tile-brown1.jpeg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;

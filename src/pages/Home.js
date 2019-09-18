@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "../components/Hero";
+import Herodynamic from "../components/Herodynamic"
 import Banner from "../components/Banner";
 
 import {Link} from "react-router-dom";
@@ -11,13 +12,14 @@ export default function Home() {
   <>
         <div className="main-content">
 
-  <Hero hero="defaultHero" >
-    <Banner title="Book an appointment" subtitle="description of the service">
+  {/* <Hero hero="defaultHero" >
+    <Banner title="Chose the best flooring for you" subtitle="description of the service">
       <Link to="/services" className=" btn-primary">
         Our services
         </Link>
       </Banner>
-  </Hero>
+  </Hero> */}
+  <Herodynamic></Herodynamic>
   <ServicesHome></ServicesHome>
   <FeaturedRooms></FeaturedRooms>
 </div>

@@ -40,7 +40,7 @@ export default class Singleservice extends Component {
     return (
     <>
     <StyledHero img={mainImg || this.state.defaultBcg}>
-      <Banner title={`${name} room`}>
+      <Banner title={`${name}`}>
         <Link to="/services" className="btn-primary">
           Back to rooms.
         </Link>
@@ -59,7 +59,7 @@ export default class Singleservice extends Component {
         <article className="info">
           <h3>Info</h3>
           <h6>Price: ${price}</h6>
-          <h6>Size: {size}SQFT</h6>
+          <h6>Size of one tile: {size}SQFT</h6>
           <h6>Max capacity: {capacity >1? `${capacity} people`:`${capacity} person` }</h6>
           <h6>{pets?"Pets aloowed": "Pets not allowed"} </h6>
           <h6>{breakfast && "Free breackfast included"}</h6>

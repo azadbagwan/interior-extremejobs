@@ -24,11 +24,11 @@ export default function RoomsFilter({rooms}) {
     return (
         console.log({type}),
         <section className="filter-container">
-           <Title title="Search rooms"/>
+           <Title title="Search type of tiles/flooring"/>
            <form className="filter-form">
                {/* select type */}
                <div className="form-group">
-                   <label htmlFor="type">service type</label>
+                   <label htmlFor="type">Flooring type</label>
                    <select name="type" id="type" value= {type} className="form-control" onChange={handleChange}>
                        {types}
 

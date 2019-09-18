@@ -1,19 +1,19 @@
-import room1 from "./images/details-1.jpeg";
-import room2 from "./images/details-2.jpeg";
-import room3 from "./images/details-3.jpeg";
-import room4 from "./images/details-4.jpeg";
-import img1 from "./images/room-1.jpeg";
-import img2 from "./images/room-2.jpeg";
-import img3 from "./images/room-3.jpeg";
-import img4 from "./images/room-4.jpeg";
-import img5 from "./images/room-5.jpeg";
-import img6 from "./images/room-6.jpeg";
-import img7 from "./images/room-7.jpeg";
-import img8 from "./images/room-8.jpeg";
-import img9 from "./images/room-9.jpeg";
-import img10 from "./images/room-10.jpeg";
-import img11 from "./images/room-11.jpeg";
-import img12 from "./images/room-12.jpeg";
+import room1 from "./images/tile-blue1.jpeg";
+import room2 from "./images/tile-blue2.jpeg";
+import room3 from "./images/tile-brown1.jpeg";
+import room4 from "./images/tile-white2.jpeg";
+import img1 from "./images/tile-brown-design1.jpeg";
+import img2 from "./images/tile-brown-texture-square.jpeg";
+import img3 from "./images/tile-paving-blocks1.jpeg";
+import img4 from "./images/tile-paving-blocks-square1.jpeg";
+import img5 from "./images/tile-tree.jpeg";
+import img6 from "./images/tile-white1.jpeg";
+import img7 from "./images/tile-wall-design1.jpeg";
+import img8 from "./images/tile-brown1.jpeg";
+import img9 from "./images/tile-blue1.jpeg";
+import img10 from "./images/tile-blue1.jpeg";
+import img11 from "./images/tile-blue1.jpeg";
+import img12 from "./images/tile-blue-design1.jpeg";
 import imgbath1 from "./images/details-3.jpeg";
 import imgbath2 from "./images/bathroom2.jpeg";
 import imgbath3 from "./images/bathroom3.jpeg";
@@ -28,9 +28,9 @@ export default [
       id: "1"
     },
     fields: {
-      name: "single economy",
+      name: "marble texture tiles",
       slug: "single-economy",
-      type: "single",
+      type: "marble texture tiles",
       price: 100,
       size: 200,
       capacity: 1,
@@ -85,9 +85,9 @@ export default [
       id: "2"
     },
     fields: {
-      name: "single basic",
+      name: "marble texture tiles",
       slug: "single-basic",
-      type: "single",
+      type: "marble texture tiles",
       price: 150,
       size: 250,
       capacity: 1,
@@ -142,9 +142,9 @@ export default [
       id: "3"
     },
     fields: {
-      name: "single standard",
+      name: "marble texture tiles",
       slug: "single-standard",
-      type: "single",
+      type: "marble texture tiles",
       price: 250,
       size: 300,
       capacity: 1,
@@ -199,9 +199,9 @@ export default [
       id: "4"
     },
     fields: {
-      name: "single deluxe",
+      name: "marble texture tiles",
       slug: "single-deluxe",
-      type: "single",
+      type: "marble texture tiles",
       price: 300,
       size: 400,
       capacity: 1,
@@ -258,7 +258,7 @@ export default [
     fields: {
       name: "double economy",
       slug: "double-economy",
-      type: "double",
+      type: "marble texture tiles",
       price: 200,
       size: 300,
       capacity: 2,
@@ -315,7 +315,7 @@ export default [
     fields: {
       name: "double basic",
       slug: "double-basic",
-      type: "double",
+      type: "marble texture tiles",
       price: 250,
       size: 350,
       capacity: 2,
@@ -372,7 +372,7 @@ export default [
     fields: {
       name: "double standard",
       slug: "double-standard",
-      type: "double",
+      type: "marble texture tiles",
       price: 300,
       size: 400,
       capacity: 2,
@@ -427,9 +427,9 @@ export default [
       id: "8"
     },
     fields: {
-      name: "double deluxe",
+      name: "marble textured tiles",
       slug: "double-deluxe",
-      type: "double",
+      type: "marble texture tiles",
       price: 400,
       size: 500,
       capacity: 2,
@@ -437,7 +437,7 @@ export default [
       breakfast: true,
       featured: true,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Textured plain tiles, great to make any space come to life and add the defth to your house or office. gives same feel as expensive natural marble floors. easy to fix and level",
       extras: [
         "Plush pillows and breathable bed linens",
         "Soft, oversized bath towels",
@@ -486,7 +486,7 @@ export default [
     fields: {
       name: "family economy",
       slug: "family-economy",
-      type: "family",
+      type: "pattern tiles",
       price: 300,
       size: 500,
       capacity: 3,
@@ -541,9 +541,9 @@ export default [
       id: "10"
     },
     fields: {
-      name: "family basic",
+      name: "pattern tiles",
       slug: "family-basic",
-      type: "family",
+      type: "pattern tiles",
       price: 350,
       size: 550,
       capacity: 4,
@@ -600,7 +600,7 @@ export default [
     fields: {
       name: "family standard",
       slug: "family-standard",
-      type: "family",
+      type: "pattern tiles",
       price: 400,
       size: 600,
       capacity: 5,
@@ -655,9 +655,9 @@ export default [
       id: "12"
     },
     fields: {
-      name: "family deluxe",
+      name: "Pattern tiles",
       slug: "family-deluxe",
-      type: "family",
+      type: "pattern tiles",
       price: 500,
       size: 700,
       capacity: 6,
@@ -686,21 +686,21 @@ export default [
         {
           fields: {
             file: {
-              url: room2
+              url: img1
             }
           }
         },
         {
           fields: {
             file: {
-              url: room3
+              url: img2
             }
           }
         },
         {
           fields: {
             file: {
-              url: room4
+              url: img7
             }
           }
         }
@@ -712,17 +712,17 @@ export default [
       id: "13"
     },
     fields: {
-      name: "presidential",
+      name: "Paving blocks",
       slug: "presidential-room",
-      type: "presidential",
+      type: "paving blocks",
       price: 600,
-      size: 1000,
+      size: 0.5,
       capacity: 10,
       pets: true,
       breakfast: true,
       featured: true,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Our expertise and deep understanding in the field of paving makes us the right choice for your next Outdoor Paving Project. Home or Commercial Establishment, we work with a singular goal to DELIGHT our customers and provide a One-Stop solution right from Estimation, Scheduling and Installation.",
       extras: [
         "Plush pillows and breathable bed linens",
         "Soft, oversized bath towels",
@@ -736,28 +736,28 @@ export default [
         {
           fields: {
             file: {
-              url: room1
+              url: img3
             }
           }
         },
         {
           fields: {
             file: {
-              url: room2
+              url: img4
             }
           }
         },
         {
           fields: {
             file: {
-              url: room3
+              url: img3
             }
           }
         },
         {
           fields: {
             file: {
-              url: room4
+              url: img4
             }
           }
         }

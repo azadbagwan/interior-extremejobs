@@ -10,6 +10,7 @@ import Contact_us from "./pages/Contact_us";
 import Error from "./pages/Error";
 import { Route, Switch } from "react-router-dom";
 import Navbar from "./components/NavBar";
+import Foot from "./components/Foot"
 import ReactGA from 'react-ga';
 
 const trackingId = "UA-145269766-1";
@@ -31,6 +32,7 @@ function App() {
           <Route exact path="/contact_us" component={Contact_us} />
           <Route component={Error} />
         </Switch>
+        <Foot/>
         </div>
     </>
   );

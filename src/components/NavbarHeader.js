@@ -31,7 +31,7 @@ const HeaderWrapper = styled.div`
 
   .toggle-icon {
     font-size: 1.75rem;
-    color: ${styles.colors.mainPurple};
+    color: ${styles.colors.mainYellow};
     cursor: pointer;
   }
   .logo {

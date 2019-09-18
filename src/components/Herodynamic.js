@@ -38,12 +38,14 @@ export default class Herodynamic extends Component {
           });
         }, 2500);
       }
+      
     
       render() {
         return (
           <div className="dynamic-hero">
             <img style={{height: 700, width: 1700,}} src={this.state.selectedImage} />
           </div>
+          
         );
 }
 }

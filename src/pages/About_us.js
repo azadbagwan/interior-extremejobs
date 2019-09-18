@@ -3,15 +3,16 @@ import Hero from "../components/Hero"
 
 export default function About_us() {
   return (
-    <Hero hero="defaultHero" >
+
+
+    <div style={{ paddingTop: 50 }}>
+          <Hero hero="defaultHero" >
     <Banner title="the best there is for your flooring needs." subtitle="description of the service">
       {/* <Link to="/services" className=" btn-primary">
         Our services
         </Link> */}
       </Banner>
   </Hero>
-
-    <div style={{ paddingTop: 50 }}>
     
 About us
 

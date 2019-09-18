@@ -16,7 +16,7 @@ export default class FeaturedRooms extends Component {
 
         return (
            <section className="featured-rooms">
-               <Title title=" Featured-services"></Title>
+               <Title title=" Types"></Title>
                <div className="featured-rooms-center ">
                    {loading?<Loading/>:rooms}
                </div>

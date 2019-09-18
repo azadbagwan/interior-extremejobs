@@ -36,7 +36,7 @@ export default class Herodynamic extends Component {
               };
             }
           });
-        }, 2000);
+        }, 2500);
       }
     
       render() {

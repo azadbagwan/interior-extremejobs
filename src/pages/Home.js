@@ -12,14 +12,14 @@ export default function Home() {
   <>
         <div className="main-content">
 
-  {/* <Hero hero="defaultHero" >
-    <Banner title="Chose the best flooring for you" subtitle="description of the service">
+  <Hero hero="defaultHero" >
+    <Banner title="Chose the best Room for you" subtitle="description of the service">
       <Link to="/services" className=" btn-primary">
         Our services
         </Link>
       </Banner>
-  </Hero> */}
-  <Herodynamic></Herodynamic>
+  </Hero>
+  {/* <Herodynamic></Herodynamic> */}
   <ServicesHome></ServicesHome>
   <FeaturedRooms></FeaturedRooms>
 </div>

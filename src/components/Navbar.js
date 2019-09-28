@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 //import logo from "../images/aanamashlogo.jpg";
-import logoWhite from "../images/eomkar-logo2.jpg";
+import logoWhite from "../images/logo3.jpg";
 //import logoWhite from "../images/eomkar-logo1.png";
 import { FaAlignRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -11,6 +11,9 @@ export default class Navbar extends Component {
   handleToggle = () => {
     this.setState({ isOpen: !this.state.isOpen });
   };
+  closeMenu=()=> {
+    this.setState({isOpen: false})
+  }
   render() {
     return (
       <nav className="navbar">
@@ -28,16 +31,16 @@ export default class Navbar extends Component {
             className={this.state.isOpen ? "nav-links show-nav" : "nav-links"}
           >
             <li>
-              <Link to="/">Home</Link>
+              <Link onClick={this.closeMenu} to="/">Home</Link>
             </li>
             <li>
-              <Link to="/services">Services</Link>
+              <Link onClick={this.closeMenu} to="/services">Services</Link>
             </li>
             <li>
-              <Link to="/about_us">About us</Link>
+              <Link onClick={this.closeMenu} to="/about_us">About us</Link>
             </li>
             <li>
-              <Link to="/contact_us">Contact us</Link>
+              <Link onClick={this.closeMenu} to="/contact_us">Contact us</Link>
             </li>
           </ul>
         </div>

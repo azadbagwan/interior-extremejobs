@@ -1,23 +1,23 @@
-import room1 from "./images/tile-blue1.jpeg";
-import room2 from "./images/tile-blue2.jpeg";
-import room3 from "./images/tile-brown1.jpeg";
-import room4 from "./images/tile-white2.jpeg";
-import img1 from "./images/tile-brown-design1.jpeg";
-import img2 from "./images/tile-brown-texture-square.jpeg";
-import img3 from "./images/tile-paving-blocks1.jpeg";
-import img4 from "./images/tile-paving-blocks-square1.jpeg";
-import img5 from "./images/tile-tree.jpeg";
-import img6 from "./images/tile-white1.jpeg";
-import img7 from "./images/tile-wall-design1.jpeg";
-import img8 from "./images/tile-brown1.jpeg";
-import img9 from "./images/tile-blue1.jpeg";
-import img10 from "./images/tile-blue1.jpeg";
-import img11 from "./images/tile-blue1.jpeg";
-import img12 from "./images/tile-blue-design1.jpeg";
+import room1 from "./images/room-11.jpeg";
+import room2 from "./images/room-12.jpeg";
+import room3 from "./images/room-5.jpeg";
+import room4 from "./images/room-4.jpeg";
+import img1 from "./images/room-1.jpeg";
+import img2 from "./images/room-2.jpeg";
+import img3 from "./images/room-3.jpeg";
+import img4 from "./images/room-6.jpeg";
+import img5 from "./images/room-5.jpeg";
+import img6 from "./images/room-4.jpeg";
+import img7 from "./images/room-7.jpeg";
+import img8 from "./images/room-8.jpeg";
+import img9 from "./images/room-9.jpeg";
+import img10 from "./images/room-10.jpeg";
+import img11 from "./images/room-11.jpeg";
+import img12 from "./images/room-12.jpeg";
 import imgbath1 from "./images/details-3.jpeg";
-import imgbath2 from "./images/bathroom2.jpeg";
-import imgbath3 from "./images/bathroom3.jpeg";
-import imgbath4 from "./images/bathroom4.jpeg";
+import imgbath2 from "./images/room-4.jpeg";
+import imgbath3 from "./images/room-4.jpeg";
+import imgbath4 from "./images/room-4.jpeg";
 import imgliving1 from "./images/livingroom_flooring1.jpeg";
 import imgliving2 from "./images/livingroom_flooring2.jpeg";
 import imgliving3 from "./images/livingroom_flooring3.jpeg";
@@ -28,7 +28,7 @@ export default [
       id: "1"
     },
     fields: {
-      name: "marble texture tiles",
+      name: "Single economy",
       slug: "single-economy",
       type: "marble texture tiles",
       price: 100,
@@ -85,12 +85,7 @@ export default [
       id: "2"
     },
     fields: {
-      name: "marble texture tiles",
-      slug: "single-basic",
-      type: "marble texture tiles",
-      price: 150,
-      size: 250,
-      capacity: 1,
+      name: "Single basic",
       pets: false,
       breakfast: false,
       featured: false,
@@ -142,7 +137,7 @@ export default [
       id: "3"
     },
     fields: {
-      name: "marble texture tiles",
+      name: "Single standard",
       slug: "single-standard",
       type: "marble texture tiles",
       price: 250,
@@ -199,7 +194,7 @@ export default [
       id: "4"
     },
     fields: {
-      name: "marble texture tiles",
+      name: "Single deluxe",
       slug: "single-deluxe",
       type: "marble texture tiles",
       price: 300,
@@ -315,7 +310,7 @@ export default [
     fields: {
       name: "double basic",
       slug: "double-basic",
-      type: "marble texture tiles",
+      type: "double basic",
       price: 250,
       size: 350,
       capacity: 2,
@@ -372,7 +367,7 @@ export default [
     fields: {
       name: "double standard",
       slug: "double-standard",
-      type: "marble texture tiles",
+      type: "double standard",
       price: 300,
       size: 400,
       capacity: 2,
@@ -427,9 +422,9 @@ export default [
       id: "8"
     },
     fields: {
-      name: "marble textured tiles",
+      name: "Double deluxe",
       slug: "double-deluxe",
-      type: "marble texture tiles",
+      type: "Double deluxe",
       price: 400,
       size: 500,
       capacity: 2,
@@ -486,7 +481,7 @@ export default [
     fields: {
       name: "family economy",
       slug: "family-economy",
-      type: "pattern tiles",
+      type: "family economy",
       price: 300,
       size: 500,
       capacity: 3,
@@ -541,9 +536,9 @@ export default [
       id: "10"
     },
     fields: {
-      name: "pattern tiles",
+      name: "family basic",
       slug: "family-basic",
-      type: "pattern tiles",
+      type: "family basic",
       price: 350,
       size: 550,
       capacity: 4,
@@ -598,9 +593,9 @@ export default [
       id: "11"
     },
     fields: {
-      name: "family standard",
+      name: "Family standard",
       slug: "family-standard",
-      type: "pattern tiles",
+      type: "Family standard",
       price: 400,
       size: 600,
       capacity: 5,
@@ -655,9 +650,9 @@ export default [
       id: "12"
     },
     fields: {
-      name: "Pattern tiles",
+      name: "Family deluxe",
       slug: "family-deluxe",
-      type: "pattern tiles",
+      type: "Family deluxe",
       price: 500,
       size: 700,
       capacity: 6,
@@ -712,9 +707,9 @@ export default [
       id: "13"
     },
     fields: {
-      name: "Paving blocks",
+      name: "Presidential room",
       slug: "presidential-room",
-      type: "paving blocks",
+      type: "Presidential room",
       price: 600,
       size: 0.5,
       capacity: 10,
@@ -769,9 +764,9 @@ export default [
       id: "14"
     },
     fields: {
-      name: "modern basic",
+      name: "Modern basic",
       slug: "modern-basic",
-      type: "bathroom",
+      type: "Modern basic",
       price: 150,
       size: 250,
       capacity: 1,
@@ -826,9 +821,9 @@ export default [
       id: "15"
     },
     fields: {
-      name: "modern basic",
+      name: "Modern basic",
       slug: "modern-basic",
-      type: "bathroom",
+      type: "Modern basic",
       price: 150,
       size: 250,
       capacity: 1,

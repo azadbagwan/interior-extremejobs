@@ -9,7 +9,7 @@ import Contact_us from "./pages/Contact_us";
 
 import Error from "./pages/Error";
 import { Route, Switch } from "react-router-dom";
-import Navbar from "./components/NavBar";
+import Navbar from "./components/Navbar";
 import Foot from "./components/Foot"
 import ReactGA from 'react-ga';
 
